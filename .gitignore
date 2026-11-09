@@ -1,0 +1,46 @@
+## Visual Studio / .NET Framework GitIgnore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.dtbcache.json
+
+# User-specific files
+*.rsuser
+*.suo
+*.userprefs
+
+# Roslyn / Visual Studio caches
+*.AssemblyReference.cache
+*.CoreCompileInputs.cache
+*.FileListAbsolute.txt
+*.GenerateResource.cache
+DesignTimeResolveAssemblyReferences*.cache
+
+# Office temporary files
+~$*
+~WRL*
+*.tmp
+
+# Windows OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
