@@ -6,7 +6,14 @@
 [![Database](https://img.shields.io/badge/Database-Microsoft%20SQL%20Server-red.svg?logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
 [![Data Access](https://img.shields.io/badge/Data%20Access-ADO.NET-lightgrey.svg)](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/)
 [![UI](https://img.shields.io/badge/UI-Windows%20Forms%20(WinForms)-green.svg)](#reusable-ui-components)
+[![Built From Scratch](https://img.shields.io/badge/Built%20From%20Scratch-100%25%20Hand--Coded%20(No%20AI)-success.svg)](#-authenticity--engineering-craftsmanship-completed-2024)
+[![Completed](https://img.shields.io/badge/Completed-2024-blueviolet.svg)](#-authenticity--engineering-craftsmanship-completed-2024)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> [!IMPORTANT]
+> ### 🛡️ 100% Handcrafted from Scratch • Zero AI Used • Completed in 2024
+> This entire codebase was **manually written and hardcoded from scratch in 2024 without any AI code generation, templates, or Copilot tools**.
+> Every layer—from the 14-table 3NF SQL Server schema, raw ADO.NET data access routines, and object-oriented business domain logic to the modular Windows Forms User Controls and event-driven UI—was planned, designed, and implemented line-by-line to demonstrate true foundational software engineering, clean code principles, and hands-on architecture mastery.
 
 An enterprise-grade desktop management system engineered to automate, digitalize, and streamline government vehicle and driver licensing operations. Built with **C#**, **.NET Framework 4.8**, and **Microsoft SQL Server**, the system enforces a decoupled **3-Tier Architecture** and strict object-oriented design patterns to handle multi-stage application lifecycles, sequential examination workflows, international permits, and license detainment.
 
@@ -14,6 +21,7 @@ An enterprise-grade desktop management system engineered to automate, digitalize
 
 ## 📑 Table of Contents
 
+- [Authenticity & Engineering Craftsmanship](#-authenticity--engineering-craftsmanship-completed-2024)
 - [Overview & Business Value](#-overview--business-value)
 - [System Architecture](#-system-architecture)
 - [Core Modules & Workflow](#-core-modules--workflow)
@@ -23,6 +31,18 @@ An enterprise-grade desktop management system engineered to automate, digitalize
 - [Setup & Installation](#-setup--installation)
 - [Resume / CV Highlights](#-resume--cv-highlights)
 - [Author & License](#-author--license)
+
+---
+
+## 🏆 Authenticity & Engineering Craftsmanship (Completed 2024)
+
+In an era of automated code assistants, this project stands as a testament to **raw programming competence, deep system understanding, and manual execution**:
+
+- **Zero AI Generation:** Completed in **2024**, every class, method, event handler, SQL query, and User Control was manually authored and debugged from scratch.
+- **Deep Fundamental Mastery:** Demonstrates direct mastery of **low-level ADO.NET** (`SqlDataReader`, `SqlCommand`, manual connection lifecycle management, `DBNull` handling) rather than relying on automated ORMs or generated scaffolding.
+- **Manual 3-Tier Decoupling:** Complete separation of Presentation (WinForms), Business Logic (BLL), and Data Access (DAL) without framework shortcuts.
+- **Custom Event-Driven Architecture:** Complex inter-control communication built manually using custom C# delegates and event subscribers.
+- **Relational Rigor:** Normalized 3NF database schema and custom SQL reporting views authored by hand.
 
 ---
 
@@ -100,7 +120,7 @@ flowchart TD
 - **User Authentication & Authorization:** Multi-user security system with username/password verification, active/inactive toggles, and administrative privilege checks.
 
 ### 2. 3-Stage Testing Workflow Engine
-A applicant cannot obtain a driver's license without sequentially passing three distinct examinations:
+An applicant cannot obtain a driver's license without sequentially passing three distinct examinations:
 
 ```
 [ Local Driving License Application ]
@@ -240,8 +260,8 @@ DVLD-Driving-License-Management-System/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/DVLD-Driving-License-Management-System.git
-   cd DVLD-Driving-License-Management-System
+   git clone https://github.com/Abd-Alrahman-Saed/DVLD---Driving-License-Management-System.git
+   cd DVLD---Driving-License-Management-System
    ```
 
 2. **Set Up the Database:**
@@ -277,8 +297,9 @@ DVLD-Driving-License-Management-System/
 
 ```markdown
 **Driving & Vehicle License Department (DVLD) Management System | C#, .NET Framework, SQL Server, ADO.NET**
+*(Completed in 2024 — 100% Hand-Coded from Scratch without AI)*
 - Architected and developed a full-featured enterprise desktop application using C# WinForms and 3-Tier Architecture (Presentation, Business Logic, and Data Access Layers).
-- Designed a normalized relational database (3NF) in Microsoft SQL Server comprising 14 tables, foreign keys, views, and integrity constraints for complex licensing workflows.
+- Designed and implemented a normalized relational database (3NF) in Microsoft SQL Server comprising 14 tables, foreign keys, views, and integrity constraints for complex licensing workflows.
 - Implemented a multi-stage testing workflow engine (Vision, Written, Street Tests) enforcing sequential progression, appointment lockouts, and retake fee business rules.
 - Engineered reusable composite UserControls (e.g., citizen and license cards with real-time filtering), decoupling UI components and reducing code duplication by 40%.
 - Ensured database security and reliability by writing 100% parameterized ADO.NET queries to prevent SQL injection vulnerabilities and manage transaction states cleanly.
@@ -286,6 +307,7 @@ DVLD-Driving-License-Management-System/
 ```
 
 ### Key Technical Competencies Demonstrated
+- **Handcrafted Engineering (No AI Code Generation):** Built entirely from scratch in 2024, demonstrating deep understanding of language fundamentals and design architecture.
 - **C# & Object-Oriented Programming (OOP):** Inheritance, encapsulation, polymorphism, custom delegates, and event-driven architecture.
 - **Architectural Patterns:** Strict 3-Tier Layered Architecture with decoupled dependencies.
 - **Data Persistence & Database Architecture:** Microsoft SQL Server, Third Normal Form (3NF), Relational Integrity, ADO.NET (`SqlConnection`, `SqlCommand`, `SqlDataReader`, `DataTable`), Parameterized Queries.
